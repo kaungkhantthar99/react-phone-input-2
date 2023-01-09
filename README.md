@@ -11,13 +11,14 @@ Highly customizable phone input component with auto formatting.
 
 ## Installation
 ```shell-script
-npm install react-phone-input-2 --save
+npm install vreact-phone-input --save
+yarn add vreact-phone-input
 ```
 
 ## Usage
 ```jsx
-import PhoneInput from 'react-phone-input-2'
-import 'react-phone-input-2/lib/style.css'
+import PhoneInput from 'vreact-phone-input'
+import 'vreact-phone-input/lib/style.css'
 
 <PhoneInput
   country={'us'}
