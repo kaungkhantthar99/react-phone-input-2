@@ -1,6 +1,6 @@
 {
-  "name": "vreact-phone-input-2",
-  "version": "2.15.2",
+  "name": "@kaungkhantthar99/vreact-phone-input-2",
+  "version": "2.15.2-custom",
   "description": "A react component to format phone numbers compatible with vite",
   "main": "lib/lib.js",
   "typings": "index.d.ts",
