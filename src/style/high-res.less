@@ -4,14 +4,14 @@
   .form-control {
     position: relative;
     font-size: 14px;
-    letter-spacing: .01rem;
+    letter-spacing: 0.01rem;
     z-index: 0;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     padding-left: 60px;
     margin-left: 0;
-    background: #FFFFFF;
-    border: 1px solid #CACACA;
+    background: #ffffff;
+    border: 1px solid #cacaca;
     border-radius: 5px;
     line-height: 25px;
     height: 35px;
@@ -19,12 +19,12 @@
     outline: none;
     &.invalid-number {
       border: 1px solid #d79f9f;
-      background-color: #FAF0F0;
+      background-color: #faf0f0;
       border-left-color: #cacaca;
       &:focus {
         border: 1px solid #d79f9f;
         border-left-color: #cacaca;
-        background-color: #FAF0F0;
+        background-color: #faf0f0;
       }
     }
     &.open {
@@ -39,7 +39,8 @@
     background-color: #f5f5f5;
     border: 1px solid #cacaca;
     border-radius: 3px 0 0 3px;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       cursor: pointer;
     }
     &.open {
@@ -53,7 +54,7 @@
     }
   }
   input[disabled] {
-    &+.flag-dropdown {
+    & + .flag-dropdown {
       &:hover {
         cursor: default;
         .selected-flag {
@@ -69,7 +70,8 @@
     height: 100%;
     padding: 0 0 0 8px;
     border-radius: 3px 0 0 3px;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       background-color: #fff;
     }
     .flag {
@@ -110,7 +112,7 @@
       display: inline-block;
       position: absolute;
       left: 10px;
-      top: 3px;
+      top: 7px;
     }
     .divider {
       padding-bottom: 5px;
@@ -154,7 +156,7 @@
     }
     .no-entries-message {
       padding: 7px 10px 11px;
-      opacity: .7;
+      opacity: 0.7;
     }
   }
   .special-label {
